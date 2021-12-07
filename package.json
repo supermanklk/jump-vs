@@ -1,17 +1,17 @@
 {
-  "name": "react-ui-card",
-  "version": "1.0.1",
+  "name": "fai-tool",
+  "version": "1.0.0",
   "main": "lib/bundle.js",
   "license": "MIT",
   "scripts": {
     "build": "yarn run rollup -c",
     "start": "yarn run rollup -c -w"
   },
-  "description": "这是一个可以反转的卡片",
+  "description": "这是一个简单的js工具库",
   "keywords": [
-    "react",
-    "ui-card",
-    "creat-card"
+    "js",
+    "ES6",
+    "js-utils"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
