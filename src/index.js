@@ -1,4 +1,4 @@
-import FUtils from './Components/Service/utils'
+import FUtils from './Service/utils'
 export { FUtils}
 
 // 以下写法可以简化成
