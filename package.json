@@ -1,7 +1,7 @@
 {
   "name": "isenser-tool",
-  "version": "0.0.3",
-  "main": "lib/bundle.js",
+  "version": "0.0.5",
+  "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
     "build": "yarn run rollup -c",
