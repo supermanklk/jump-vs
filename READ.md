@@ -33,6 +33,11 @@ $: npm config set registry https://registry.npmjs.org
 
 发布: yarn publish
 
+https://npmmirror.com/
+如果你的库没有及时同步到 npmmirror 使用如下命令及时同步
+cnpm sync express
+
+
 
 
 
