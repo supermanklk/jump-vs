@@ -1,6 +1,6 @@
 {
   "name": "isenser-tool",
-  "version": "0.0.85",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
