@@ -45,6 +45,9 @@ yalc add [name]
 - 在我们的项目内： yarn start
 - 在我们的项目内： 成功，页面更新。
 
+### 结束调试
+- yalc remove jump-vs
+
 
 # 发布我们的包
 
