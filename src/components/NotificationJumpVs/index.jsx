@@ -4,9 +4,9 @@ const NotificationJumpVs = (props) => {
 
   useEffect(() => {
     const args = {
-      message: 'Notification Title12',
+      message: '如何点击页面跳转到vscode？',
       description:
-        'I 11will never close automatically. This is a purposely very very long description that has many many characters and words.',
+        '按着option,鼠标移动到对应的UI点击即可跳转到对应的vscode位置',
       duration: 0,
     };
     notification.open(args);
