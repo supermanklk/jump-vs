@@ -64,11 +64,11 @@ $: npm config set registry https://registry.npmjs.org
 - 如何将npm的库及时更新到npmmirror源？
   https://npmmirror.com/
 如果你的库没有及时同步到 npmmirror 使用如下命令及时同步
-cnpm sync isenser-tool
+cnpm sync jump-vs
 
 
 - 同步taobo镜像
-https://npmmirror.com/sync/vite 
+https://npmmirror.com/sync/jump-vs
 
 
 
