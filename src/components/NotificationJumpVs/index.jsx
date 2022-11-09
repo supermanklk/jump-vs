@@ -31,8 +31,10 @@ const NotificationJumpVs = (props) => {
   };
 
   useEffect(() => {
-
-    if (isDev) {
+    console.info('当前是开发环境？', isDev())
+    console.info('当前是开发环境？', isDev())
+    console.info('当前是开发环境？', isDev())
+    if (isDev()) {
       reminderUser()
     }
 
