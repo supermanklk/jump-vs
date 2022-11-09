@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react'
 import { notification } from 'antd';
+
+
+
 const NotificationJumpVs = (props) => {
 
 
@@ -39,4 +42,10 @@ const NotificationJumpVs = (props) => {
     <div></div>
   )
 }
-export default NotificationJumpVs
+
+function JumpVsTip() {
+  return <NotificationJumpVs/>
+}
+
+
+export default JumpVsTip
