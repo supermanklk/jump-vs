@@ -7,7 +7,7 @@ import path from 'path'
 
 
 export default {
-  input: './src/index.ts',
+  input: './src/index.js',
   output: {
     file: './lib/index.js',
     format: 'esm'
@@ -25,5 +25,5 @@ export default {
   }),
   ],
   // external 代表的是从外部引入的包
-  external: ['react']
+  external: ['react','antd']
 }
