@@ -1,6 +1,6 @@
 {
-  "name": "isenser-tool",
-  "version": "1.0.3",
+  "name": "jump-vs",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
