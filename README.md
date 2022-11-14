@@ -33,9 +33,9 @@ yarn global add yalc
 `yalc publish`
 
 ### 引入
-- 执行后，业务工程的 node_modules 中就会有这个包。眼尖的小伙伴会发现，这个 npm 包不同于其它包，它带有一个转折箭头符号(也就是说这是一个软链接)。
+- `yalc add [name]`执行后，业务工程的 node_modules 中就会有这个包。眼尖的小伙伴会发现，这个 npm 包不同于其它包，它带有一个转折箭头符号(也就是说这是一个软链接)。
 在需要引入库的测试项目中
-yalc add [name]
+
 
 ### 更新
 - 在我们开发的库内 yarn build &&  yalc publish
