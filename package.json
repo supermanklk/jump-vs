@@ -1,6 +1,6 @@
 {
   "name": "jump-vs-notification",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "postcss": "^8.4.4",
+    "react-toastify": "^9.1.1",
     "rollup-plugin-postcss": "^4.0.2"
   }
 }
