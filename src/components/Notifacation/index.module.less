@@ -1,0 +1,91 @@
+.notification {
+  max-width: 430px;
+  max-height: 200px;
+  overflow: hidden;
+  padding: 12px 48px 12px 12px;
+  z-index: 99;
+  font-weight: bold;
+  position: relative;
+  color: #fff;
+
+  .closeButton {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    height: 16px;
+    transform: translateY(-50%);
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+  }
+
+  .closeIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  // HTML5 | CSS3 | JavaScript   li:not(:last-child)::after { content: "|"}
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+
+  &.info {
+    background: red;
+  }
+
+  &.success {
+    background-color: #4caf50;
+  }
+
+  &.warning {
+    background-color: #ff9800;
+  }
+
+  &.error {
+    background-color: #f44336;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+
+
+  &.slideIn {
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+
+  &.slideOut {
+    transform: translateX(150%);
+    flex: 0;
+  }
+
+}
+
+.container {
+  overflow: hidden;
+  max-height: 200px;
+  transition: max-height .3s ease-out;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &.shrink {
+    max-height: 0;
+  }
+}
+
+
+
