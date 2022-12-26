@@ -46,7 +46,7 @@ yarn global add yalc
 - 在我们的项目内： 成功，页面更新。
 
 ### 结束调试
-- yalc remove jump-vs
+- yalc remove jump-vs-notification
 
 
 # 发布我们的包
@@ -59,16 +59,16 @@ $: npm config set registry https://registry.npmjs.org
 
 - 发布: yarn publish
 
-- 发布成功地址： https://www.npmjs.com/package/jump-vs
+- 发布成功地址： https://www.npmjs.com/package/jump-vs-notification
 
 - 如何将npm的库及时更新到npmmirror源？
   https://npmmirror.com/
 如果你的库没有及时同步到 npmmirror 使用如下命令及时同步
-cnpm sync jump-vs
+cnpm sync jump-vs-notification
 
 
 - 同步taobo镜像
-https://npmmirror.com/sync/jump-vs
+https://npmmirror.com/sync/jump-vs-notification
 
 
 
