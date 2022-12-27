@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useIsomorphicEffect } from "../use-isomorphic-effect/use-isomorphic-effect";
+import React, { useState } from 'react';
+import { useIsomorphicEffect } from '../use-isomorphic-effect/use-isomorphic-effect';
 
 export const randomId = () => `isense-${Math.random().toString(36).slice(2, 11)}`;
 

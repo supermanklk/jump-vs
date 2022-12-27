@@ -31,7 +31,6 @@
   &:not(:last-child) {
     margin-bottom: 8px;
   }
-  
 
   &.info {
     background: red;
@@ -51,14 +50,12 @@
 
   @keyframes slideIn {
     from {
-      transform: translateX(100%)
+      transform: translateX(100%);
     }
     to {
-      transform: translateX(0)
+      transform: translateX(0);
     }
   }
-
-
 
   &.slideIn {
     animation-name: slideIn;
@@ -70,13 +67,12 @@
     transform: translateX(150%);
     flex: 0;
   }
-
 }
 
 .container {
   overflow: hidden;
   max-height: 200px;
-  transition: max-height .3s ease-out;
+  transition: max-height 0.3s ease-out;
 
   &:not(:last-child) {
     margin-bottom: 8px;
@@ -86,6 +82,3 @@
     max-height: 0;
   }
 }
-
-
-

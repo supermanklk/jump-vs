@@ -4,6 +4,7 @@ import typescript from 'rollup-plugin-typescript'
 import sourcemaps from 'rollup-plugin-sourcemaps'
 import ts from 'rollup-plugin-typescript2'
 import path from 'path'
+import svg from 'rollup-plugin-svg'
 
 export default {
   input: './src/index.ts',
@@ -21,8 +22,10 @@ export default {
     sourcemaps(),
     ts({
       tsconfig: path.resolve(__dirname, 'tsconfig.json')
-    })
+    }),
+    svg()
   ],
   // external 代表的是从外部引入的包
-  external: ['react', 'antd', 'react-dom']
+  external: ['react', 'antd', 'react-dom'],
+  
 }
